@@ -5,6 +5,7 @@ int maxCount = 101;
 for (int count = 0; count < maxCount; count++)
 {
     Console.WriteLine(OfWhatEquivalent(count));
+    Thread.Sleep(500);
 }
 
 

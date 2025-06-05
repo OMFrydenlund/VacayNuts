@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello Christopher!!!");
+﻿using PreVacayNuttiest;
+
+Weight weight = new Weight();

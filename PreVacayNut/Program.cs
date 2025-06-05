@@ -1,22 +1,33 @@
-﻿
+﻿TheProgram();
 
-while (true)
+int MustReturnSomething(int sentNum)
 {
-    int num = Convert.ToInt32(Console.ReadLine());
+    int num = 0;
 
-    switch (num)
+    switch (sentNum)
     {
         case > 0:
-            Console.WriteLine(1);
+            num = 1;
             break;
         case 0:
-            Console.WriteLine(num);
+            num = sentNum;
             break;
         case < 0:
-            Console.WriteLine(-1);
+            num = -1;
             break;
         default:
             Console.WriteLine("Not valid.");
             break;
+    }
+    return num;
+}
+
+void TheProgram()
+{
+    while (true)
+    {
+        int queried = Convert.ToInt32(Console.ReadLine());
+        int toPrint = MustReturnSomething(queried);
+        Console.WriteLine(toPrint + "\n");
     }
 }

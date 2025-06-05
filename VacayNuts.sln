@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreVacayNut", "PreVacayNut\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreVacayNuttier", "PreVacayNuttier\PreVacayNuttier.csproj", "{9271CB79-AE90-453A-A977-94ECDE89F8EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreVacayNuttiest", "PreVacayNuttiest\PreVacayNuttiest.csproj", "{054662C3-8507-4F38-9B2B-010771E37E12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9271CB79-AE90-453A-A977-94ECDE89F8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9271CB79-AE90-453A-A977-94ECDE89F8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9271CB79-AE90-453A-A977-94ECDE89F8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054662C3-8507-4F38-9B2B-010771E37E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054662C3-8507-4F38-9B2B-010771E37E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054662C3-8507-4F38-9B2B-010771E37E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054662C3-8507-4F38-9B2B-010771E37E12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
